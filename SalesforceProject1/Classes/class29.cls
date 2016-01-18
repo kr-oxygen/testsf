@@ -1,0 +1,1 @@
+public class class29 implements interface1{}

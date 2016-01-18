@@ -1,0 +1,46 @@
+<apex:page >
+    <c:Resources />
+    <script type="text/javascript">
+        $j = jQuery.noConflict();
+
+        // method set focus out from VF page on load - override standard functionality
+        function setFocusOnLoad() {}
+        
+        /*
+        *@ 
+        */
+        function validateStats(object, maxAllowed, applyValidation, ignoreError) {
+            var statsValue = object.value;
+            var error = false;
+
+            if (statsValue > maxAllowed && applyValidation) {
+                error = true
+            }
+            
+            if (error) {
+                if (ignoreError) {
+                    object.setAttribute("class", "inputWarning");
+                } else {
+                    object.setAttribute("class", "inputError");
+                }
+
+                // show error/warning messgae
+                $j(object).parent().find('.hintPanel').show();
+            } else {
+                object.setAttribute("class", "");
+
+                // hide error/warning messgae
+                $j(object).parent().find('.hintPanel').hide();
+            }
+        }
+
+        // triger blur on all inputs element
+        function fireBlur() {
+            $j('input').each(function(){
+              $j(this).trigger('onkeyup');
+              // each input event one by one... will be blured
+            })
+        }
+
+    </script>
+</apex:page>

@@ -1,0 +1,11 @@
+<apex:component >
+    
+    <apex:attribute name="rerenderlist" type="String" description="TODO: Describe me"/>
+    <apex:attribute name="paginator" type="String" description="TODO: Describe me"/>
+<!--    <apex:form> -->
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Component: paginationbar
+  <!-- End Default Content REMOVE THIS -->
+<!--        </apex:form> -->
+</apex:component>

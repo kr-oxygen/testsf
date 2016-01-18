@@ -1,0 +1,1 @@
+trigger Trigger223 on Campaign (after delete)  { }

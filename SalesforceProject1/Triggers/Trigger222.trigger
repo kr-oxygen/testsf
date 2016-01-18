@@ -1,0 +1,1 @@
+trigger Trigger222 on Asset (after insert)  { }

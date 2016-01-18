@@ -1,0 +1,1 @@
+trigger Trigger226 on Account (before insert)  { }

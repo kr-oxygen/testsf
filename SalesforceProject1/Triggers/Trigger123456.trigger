@@ -1,0 +1,1 @@
+trigger Trigger123456 on Account (before update)  { }

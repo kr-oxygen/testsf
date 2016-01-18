@@ -1,0 +1,1 @@
+public class Class7 { integer a=455743; }

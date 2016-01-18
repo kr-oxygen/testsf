@@ -1,0 +1,1 @@
+trigger Trigger111111 on Account (before insert)  { }

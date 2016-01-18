@@ -1,0 +1,1 @@
+public class class88{ public class aclass { }}

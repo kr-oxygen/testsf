@@ -1,0 +1,1 @@
+public class Class3TestSyncData { }

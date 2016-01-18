@@ -1,0 +1,1 @@
+trigger Trigger229 on Account (before insert)  { }
