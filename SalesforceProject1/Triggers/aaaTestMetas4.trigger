@@ -1,0 +1,1 @@
+trigger aaaTestMetas4 on Account (before update)  { }

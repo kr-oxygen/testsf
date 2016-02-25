@@ -6,9 +6,7 @@
         // method set focus out from VF page on load - override standard functionality
         function setFocusOnLoad() {}
         
-        /*
-        *@ 
-        */
+       
         function validateStats(object, maxAllowed, applyValidation, ignoreError) {
             var statsValue = object.value;
             var error = false;

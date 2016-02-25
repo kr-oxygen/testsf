@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestsResultsCache>
+    <TestClasses>
+        <TestClass>
+            <TestClassId>01p20000004l48dAAA</TestClassId>
+            <TestQueueId>709200000000zlXAAQ</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L2000003rKZVPEA4</ApexLogId>
+                    <Name>test1</Name>
+                    <Message>SomeException: Script-thrown exception</Message>
+                    <StackTrace>Class.aaaTestMetas4.test1: line 4, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p20000004l48dAAA</TestClassId>
+            <TestQueueId>709200000000zlSAAQ</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L2000003rKZTnEAO</ApexLogId>
+                    <Name>test1</Name>
+                    <Message>SomeException: Script-thrown exception</Message>
+                    <StackTrace>Class.aaaTestMetas4.test1: line 4, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p20000004l48dAAA</TestClassId>
+            <TestQueueId>709200000000zlNAAQ</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L2000003rKZSzEAO</ApexLogId>
+                    <Name>test1</Name>
+                    <Message>SomeException: Script-thrown exception</Message>
+                    <StackTrace>Class.aaaTestMetas4.test1: line 4, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+    </TestClasses>
+</TestsResultsCache>
